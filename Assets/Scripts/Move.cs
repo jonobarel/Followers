@@ -9,7 +9,7 @@ public class Move : FollowerComponent
     public float speed = 5f;
     Animator anim;
     // Start is called before the first frame update
-    protected override void Start()
+    public override void Start()
     {
         base.Start();
         anim = GetComponent<Animator>();

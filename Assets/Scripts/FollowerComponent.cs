@@ -11,6 +11,7 @@ public class FollowerComponent : MonoBehaviour
 
     public GameObject Target {
         get {return owner.target;}
+        set {owner.target = value;}
     }
 
     public Vector3 getAdjustedTargetPosition() {
@@ -19,7 +20,7 @@ public class FollowerComponent : MonoBehaviour
         return v;
     } 
 
-    protected virtual void Start()
+    public virtual void Start()
     {
         owner = gameObject.GetComponent<Follower>();
     }

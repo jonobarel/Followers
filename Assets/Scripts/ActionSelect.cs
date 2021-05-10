@@ -7,16 +7,16 @@ public class ActionSelect : FollowerComponent
     Move moveComponent;
     public float maxDistance = 10f;
     public float minDistance = 0.5f;
-    private GameObject target;
+    //private GameObject target;
     // Start is called before the first frame update
-    protected override void Start()
+    public override void Start()
     {
         base.Start();
         moveComponent = GetComponent<Move>();
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    virtual public void FixedUpdate()
     {
         if ((getAdjustedTargetPosition() - transform.position).sqrMagnitude > maxDistance*maxDistance) {
             moveComponent.Go();

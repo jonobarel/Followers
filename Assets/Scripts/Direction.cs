@@ -8,7 +8,7 @@ public class Direction : FollowerComponent
     public float ROTATIONSPEED = 0.03f;
 
     // Start is called before the first frame update0
-    protected override void Start()
+    public override void Start()
     {
         base.Start();
     }
