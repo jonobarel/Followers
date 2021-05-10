@@ -17,13 +17,17 @@ public class Move : FollowerComponent
     }
 
     public void Go() {
-        anim.SetBool("walk", true);
+        if (anim) {
+            anim.SetBool("walk", true);
+        }
         moveState = true;
     }
 
     public void Stop() {
         
-        anim.SetBool("walk", false);
+        if (anim) {
+            anim.SetBool("walk", false);
+        }
         moveState = false;
 
     }

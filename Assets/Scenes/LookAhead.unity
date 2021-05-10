@@ -233,6 +233,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3613020722658703562, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
+      propertyPath: maxDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613020722658703562, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
+      propertyPath: minDistance
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7313297318884345887, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
       propertyPath: target
       value: 
@@ -403,6 +411,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3613020722658703562, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
+      propertyPath: maxDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613020722658703562, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
+      propertyPath: minDistance
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7313297318884345887, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
       propertyPath: target
       value: 
@@ -488,6 +504,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3613020722658703562, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
+      propertyPath: maxDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613020722658703562, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
+      propertyPath: minDistance
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7313297318884345887, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
       propertyPath: target
       value: 
@@ -610,6 +634,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3613020722658703562, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
+      propertyPath: maxDistance
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3613020722658703562, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
+      propertyPath: minDistance
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 7313297318884345887, guid: 5d87e0f45d15fd64a9c0bd7cab30e249, type: 3}
       propertyPath: target
       value: 
