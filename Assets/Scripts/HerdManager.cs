@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.Characters.ThirdPerson;
 
+/***************************
+Not used. Was meant to spawn sheep in a herd to follow the character
+****************************/
 
 public class HerdManager : MonoBehaviour
 {

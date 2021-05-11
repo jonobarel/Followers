@@ -15,18 +15,9 @@ public class WaypointCollection : MonoBehaviour
 
     public Waypoint GetNextWaypoint() {
         ++counter;
-        return points[counter%points.Length];
+        counter%=points.Length;
+        return points[counter];
 
     }
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

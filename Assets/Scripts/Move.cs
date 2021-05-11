@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/******************************
+
+Locomotion class
+********************************/
 public class Move : FollowerComponent
 {
 
+    
     bool moveState = false;
     public float speed = 5f;
     Animator anim;

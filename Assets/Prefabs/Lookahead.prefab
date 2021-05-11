@@ -49,6 +49,7 @@ MonoBehaviour:
   lookaheadPrefab: {fileID: 0}
   target: {fileID: 0}
   herd: {fileID: 0}
+  follower: {fileID: 0}
 --- !u!114 &8494167775558816316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fb69b70d2ab03a479bda0489b9db51b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ROTATIONSPEED: 0.03
+  ROTATIONSPEED: 0.3
 --- !u!114 &714714871035350864
 MonoBehaviour:
   m_ObjectHideFlags: 0

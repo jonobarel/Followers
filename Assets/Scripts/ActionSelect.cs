@@ -1,6 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+/*********************
+
+Controller class that directs the movement and targeting.
+
+*********************/
 public class ActionSelect : FollowerComponent
 {
 

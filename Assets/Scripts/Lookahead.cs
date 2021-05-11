@@ -2,6 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*****************************
+
+The lookahead class is a special type of follower, spawned by followers to fit in between them and their target.
+
+*****************************/
 public class Lookahead : Follower
 {
     // Start is called before the first frame update

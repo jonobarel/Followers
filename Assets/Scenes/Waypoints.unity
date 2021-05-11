@@ -946,9 +946,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9214759026832200040, guid: 8bbc8b48329b0714ca3ed9f78f516479, type: 3}
+      propertyPath: speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9214759026832200042, guid: 8bbc8b48329b0714ca3ed9f78f516479, type: 3}
       propertyPath: m_Name
       value: Lookahead with WP List
+      objectReference: {fileID: 0}
+    - target: {fileID: 9214759026832200042, guid: 8bbc8b48329b0714ca3ed9f78f516479, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9214759026832200042, guid: 8bbc8b48329b0714ca3ed9f78f516479, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9214759026832200043, guid: 8bbc8b48329b0714ca3ed9f78f516479, type: 3}
       propertyPath: wpList

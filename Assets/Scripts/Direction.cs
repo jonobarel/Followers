@@ -2,10 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*********************
+Steering class
+*********************/
 
 public class Direction : FollowerComponent
 {
-    public float ROTATIONSPEED = 0.03f;
+    public float ROTATIONSPEED = 0.3f;
 
     // Start is called before the first frame update0
     public override void Start()

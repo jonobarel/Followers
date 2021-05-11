@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fb69b70d2ab03a479bda0489b9db51b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ROTATIONSPEED: 0.03
+  ROTATIONSPEED: 0.3
 --- !u!114 &9214759026832200040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,3 +92,4 @@ MonoBehaviour:
   maxDistance: 10
   minDistance: 0.5
   wpProximityThreshold: 0.5
+  distanceToTarget: 0
